@@ -74,7 +74,7 @@ export default {
      }`);
     this.timer = setInterval(() => {
       window.location.reload();
-    }, 30000);
+    }, 15000);
   },
   beforeDestroy() {
     this.timer = null;
